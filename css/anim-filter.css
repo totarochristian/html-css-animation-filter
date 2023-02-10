@@ -1,0 +1,6 @@
+.col-xs-12 .well .ex-1-square{
+    transition: background-color 1s;
+}
+.col-xs-12 .well .ex-1-square:hover{
+    background-color: red;
+}
