@@ -14,7 +14,7 @@
 .col-xs-12 .well .ex-2-square{
     transition: width 1s, height 1s;
 }
-.col-xs-12 .well .ex-2-square:hover{
+.col-xs-12 .well .ex-2-square:active{
     width: 200px;
     height: 200px;
 }
