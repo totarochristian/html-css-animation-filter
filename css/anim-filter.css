@@ -38,3 +38,18 @@
 .col-xs-12 .well .ex-4-square:hover{
     opacity: 0;
 }
+
+/*****************************************************************************/
+/******************************** Esercizio 5 ********************************/
+/*****************************************************************************/
+.col-xs-12 .well .ex-5-square{
+    transition: width 1s, height 1s;
+}
+.col-xs-12 .well .ex-5-square:hover{
+    width: 200px;
+    height: 200px;
+}
+.col-xs-12 .well .ex-5-square:active{
+    width: 20px;
+    height: 20px;
+}
