@@ -82,6 +82,18 @@
     transition: filter 2s, border-radius 1s;
 }
 .col-xs-12 .well .ex-8-img:hover{
-    filter: hue-rotate(90deg) contrast(200%);;
+    filter: hue-rotate(90deg) contrast(200%);
     border-radius: 10px;
+}
+
+/*****************************************************************************/
+/******************************** Esercizio 9 ********************************/
+/*****************************************************************************/
+.col-xs-12 .well .ex-9-img{
+    transition: width 3s, filter 2s, border-radius 1s;
+}
+.col-xs-12 .well .ex-9-img:hover{
+    filter: sepia(60%) drop-shadow(0 0 20px yellow);
+    border-radius: 10px;
+    width: 50%;
 }
