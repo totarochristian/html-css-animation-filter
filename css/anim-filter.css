@@ -109,3 +109,18 @@
         transform: rotate(360deg);
     }
 }
+
+/*****************************************************************************/
+/******************************** Esercizio 11 ********************************/
+/*****************************************************************************/
+.col-xs-12 .well .ex-11-icon:hover{
+    animation: rotateIconSpecial 3s 0.2s infinite ease-out;
+}
+@keyframes rotateIconSpecial{
+    60%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(-270deg);
+    }
+}
